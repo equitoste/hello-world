@@ -1,12 +1,42 @@
-# Atari 2600 (Stella) support for multiple assemblers
-# - DASM
-# - CC65
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
 # Assembled binaries and object directories
 obj/
 a.out
 *.bin
-*.a26
-
-# Add in special Atari 7800-based binaries for good measure
-*.a78
